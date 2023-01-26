@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+  </head>
+  <body>
+    Qual seu nome?<br />
+    <input type="text" name="nome" />
+    <hr />
+
+    Qual seu e-mail?<br />
+    <input type="text" name="email" />
+    <hr />
+
+    Qual seu sexo?<br />
+    <input type="radio" name="sexo" value="masculino" />Masculino <br />
+    <input type="radio" name="sexo" value="feminino" />Feminino
+    <hr />
+
+    Fale sobre você <br />
+    <textarea name="fale_sobre_voce" cols="30" rows="10"></textarea>
+    <hr />
+
+    Quais frutas você gosta?<br />
+    <input type="checkbox" name="fruta" value="laranja" />Laranja <br />
+    <input type="checkbox" name="fruta" value="maçã" />Maçã <br />
+    <input type="checkbox" name="fruta" value="Uva" />Uva
+    <hr />
+
+    Qual seu estado civil?<br />
+    <select name="estado_civil">
+      <option value="solteiro">Solteiro</option>
+      <option value="casado">Casado</option>
+      <option value="divorciado">Divorciado</option>
+      <option value="viuvo">Viúvo</option>
+    </select>
+    <hr />
+
+    Defina sua senha: <br />
+    <input type="password" name="senha" />
+    <hr />
+
+    <input type="submit" value="Enviar" />
+    <input type="reset" value="Limpar formulário" />
+  </body>
+</html>
