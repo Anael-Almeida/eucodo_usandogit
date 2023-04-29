@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form method="get" action="https://www.google.com.br/search">
+
+        Qual seu nome?<br>
+        <input type="text" name="q"  required autocomplete="off">
+        <hr>
+
+        Qual seu e-mail?<br>
+        <input type="em" name="email">
+        <hr>
+
+        Qual seu sexo?<br>
+        <input type="radio" name="sexo" value="masculino">
+        Masculino<br>
+        <input type="radio" name="sexo" value="feminino">
+        Feminino<br>
+        <hr>
+
+        Fale sobre você<br>
+        <textarea name="fale_sobre_voce" cols="30" rows="10"></textarea>
+        <hr>
+
+        Quais frutas você gosta?<br>
+        <input type="checkbox" name="fruta" value="laranja">
+        Laranja<br>
+        <input type="checkbox" name="fruta" value="maçã">
+        Maçã<br>
+        <input type="checkbox" name="fruta" value="uva">
+        Uva<br>
+        <hr>
+
+        Qual seu estado cívil?<br>
+        <select name="estado_civil">
+            <option value="solteiro">Solteiro(a)</option>
+            <option value="casado">Casado(a)</option>
+            <option value="divorciado">Divorciado(a)</option>
+        </select>
+        <hr>
+
+        Defina sua senha:<br>
+        <input type="password" name="senha">
+        <hr>
+        <input type="submit" name="enviar" value="Enviar">
+        <input type="reset" name="limpar_formulario" value="Limpar Formulário">
+    </form>
+</body>
+</html>
