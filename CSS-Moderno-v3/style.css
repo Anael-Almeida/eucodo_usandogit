@@ -10,7 +10,7 @@ body {
   align-items: center;
   gap: 10px 10px;
   border: solid 2px red;
-
+  min-height: ;
 }
 
 .item {
