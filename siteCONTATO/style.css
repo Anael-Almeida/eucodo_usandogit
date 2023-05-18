@@ -1,5 +1,24 @@
+body {
+}
+
+.fundo {
+  background-image: url(imagens/depositphotos_52459259-stock-photo-group-of-busy-people-working.jpg);
+  width: 100%;
+
+}
+
+#fonte {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 80px;
+
+}
+
 .header {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100px;
+  background-color: #fff;
 }
 
 #logo {
@@ -23,10 +42,9 @@
   padding: 10px;
   padding-right: 20px;
   padding-left: 20px;
-
-  
 }
 
 .botoes div:hover {
-    background-color: greenyellow;
+  background-color: greenyellow;
+  transition: 0.7s;
 }
