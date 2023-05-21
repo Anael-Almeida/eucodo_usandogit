@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Lógica de programação - Exercício - Cadastro de Clientes</h1>
+
+    <script>
+        var nome = prompt("Informe seu nome");
+        var sobreNome = prompt("Informe seu sobrenome");
+        var email = prompt("Informe seu e-mail");
+        var telefone = prompt("Informe seu telefone");
+        var anoNascimento = prompt("Informe o ano em que nasceu");
+        var idade = 2023 - parseInt(anoNascimento);
+        
+        alert("CLIENTE CADASTRADO COM SUCESSO!" + 
+        "\nNome: " + nome + " " + sobreNome + 
+        "\nEmail: " + email + 
+        "\nTelefone: " + telefone + 
+        "\nAno de nascimento: " + anoNascimento + " - " + (idade + " anos"));
+
+    </script>
+</body>
+</html>
